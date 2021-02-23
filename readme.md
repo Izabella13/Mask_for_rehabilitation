@@ -8,8 +8,9 @@ _**Подготовка к работе**_:
 3) В папке создать виртуальное пространство venv с помощью команды:
    `python3.8 -m venv venv`
 4) Активировать venv:
-   `source venv/bin/activate` - для Linux
-   `.\venv\Scripts\activate` - для Windows
+   \n`source venv/bin/activate` - для Linux
+   \n`.\venv\Scripts\activate` - для Windows
 5) С помощью следующей команды установить зависимости:
-   `pip install -r requirements.txt`
-6) Запуск программы: `python start.py`
+   \n`pip install -r requirements.txt`
+6) Запуск программы: 
+   \n`python start.py`
