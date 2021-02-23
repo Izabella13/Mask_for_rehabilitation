@@ -2,8 +2,8 @@ import cv2
 import time
 
 
-haarcascade = 'Data/haarcascade_frontalface_default.xml'
-directory = "dataset/EM_{}_{}.jpg"
+haarcascade = 'window/Data/haarcascade_frontalface_default.xml'
+directory = "p_I.jpg"
 # захватываем изображение
 cam = cv2.VideoCapture(0)
 # устанавливаем высоту кадра
@@ -32,7 +32,7 @@ while(True):
     if cv2.waitKey(70) & 0xff == 27:
         # Для завершения работы программы нажмите «ESC»
         break
-    elif count >= 200:
+    elif count >= 2:
         # Остановка программы после создания заданного количества кадров
         break
     print(count)

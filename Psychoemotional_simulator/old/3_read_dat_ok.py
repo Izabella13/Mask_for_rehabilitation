@@ -4,8 +4,8 @@ import csv
 import pickle
 
 
-dis_path = 'discript/'
-dat_path = 'Data/'
+dis_path = '../discript/'
+dat_path = '../windows/Data/'
 # Список, содержащий дискрипторы
 dat = []
 # Список, содержащий номера эмоций
